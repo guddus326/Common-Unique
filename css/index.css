@@ -1,0 +1,50 @@
+body { padding-top: 50px; }
+.navbar-fixed-top { background-color: #ffffff; }
+.page-header{
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+}
+.w3-xxlarge{
+    font-family: 'Playfair Display', serif;
+}
+.caption{
+    font-size: x-small;
+    text-align:left;
+}
+.pop{
+    text-align:center;
+}
+.notice{
+    text-align: center;
+}
+.footer{
+    text-align: right;
+}
+ .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgimg-2 {
+    background-image: url("../img/mustang.jpg");
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url("../img/footer.jpg");
+    min-height: 400px;
+}
+
+@media only screen and (max-device-width: 1024px) {
+     .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+a:link { color: black; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+a:hover { color: black; text-decoration: none;}
